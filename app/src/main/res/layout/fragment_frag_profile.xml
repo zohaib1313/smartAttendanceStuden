@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="10dp"
+    android:layout_weight="2"
+    android:elevation="15dp"
+
+    app:cardBackgroundColor="#FFF176"
+    app:cardCornerRadius="12dp">
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="center"
+            android:text="device Id"
+            android:textAllCaps="true"
+
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/tvDeviceId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:layout_marginBottom="20sp"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="device Id"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/tvProfName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:ems="10"
+            android:hint="Name"
+            android:inputType="textPersonName"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black" />
+
+        <EditText
+
+            android:id="@+id/tvProfRoll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:hint="Roll No"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black" />
+
+        <EditText
+            android:id="@+id/tvProfContact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:hint="Contact"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <Button
+
+                android:id="@+id/btnProfSubmit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@color/design_default_color_primary"
+                android:padding="10dp"
+                android:text="Submit"
+                android:textColor="@color/white" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

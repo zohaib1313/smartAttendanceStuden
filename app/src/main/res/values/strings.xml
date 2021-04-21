@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SmartAttendanceStudent</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="students_pref">studentPref</string>
+    <string name="key_name">prefName</string>
+    <string name="key_roll">prefRoll</string>
+    <string name="key_contact">prefContact</string>
+    <string name="key_deviceId">deviceId</string>
+
+
+</resources>
